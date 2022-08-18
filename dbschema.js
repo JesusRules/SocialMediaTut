@@ -19,5 +19,37 @@ let db = {
             likeCount: 5,
             commentCount: 3
         }
+    ],
+    comments: [
+        {
+            userHandle: 'user',
+            screamId: 'asdasddfgdfgdfg',
+            body: 'nice one mate!',
+            createdAt: '2019-03-15T10:59:52.798Z'
+        }
+    ]
+};
+const userDetails = {
+    // Redux data
+    credentials: {
+        userId: 'N43KJ5H43LKJW4K5J3KW<ERJB',
+        email: 'user@email.com',
+        handle: 'user',
+        createdAt: '2019-03-15T10:59:52.798Z',
+        imageUrl: 'image/dasdasdasdasd',
+        bio: 'Hello, my name is user, nice to meet you',
+        website: 'https://user.com',
+        location: 'Canada, ON'
+    },
+    likes: [
+        {
+            userHandle: 'user',
+            screamId: 'hh705oWfWucVzGbHH2pa',
+        },
+        {
+            userHandle: 'user',
+            screamId: '3IOnFBXOoQexRcofs5Oh',
+        },
+        
     ]
 }
